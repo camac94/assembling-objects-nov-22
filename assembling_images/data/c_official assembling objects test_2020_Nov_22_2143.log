@@ -1,0 +1,112 @@
+1.1251 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.3517 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+12.2944 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x137e9dba8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x137f4c940>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1440,  900]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.2948 	EXP 	window1: mouseVisible = True
+12.2948 	EXP 	window1: recordFrameIntervals = False
+12.4608 	EXP 	window1: recordFrameIntervals = True
+12.6448 	EXP 	window1: recordFrameIntervals = False
+12.9065 	EXP 	Created participant_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='participant_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9950 	EXP 	Created sample_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='sample_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.0549 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='practiceq.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.1 , 0.55]), texRes=512, units='height', win=Window(...))
+13.0974 	EXP 	Created sample_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='sample_feedback', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.1224 	EXP 	Created question_images = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='question_images', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1.25, 0.7 ]), texRes=512, units='height', win=Window(...))
+13.1621 	EXP 	Created thankyouslide = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thankyouslide', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.1959 	EXP 	participant_instructions: autoDraw = True
+24.6801 	DATA 	Keypress: space
+24.7098 	EXP 	participant_instructions: autoDraw = False
+24.7098 	EXP 	sample_instructions: autoDraw = True
+50.7896 	DATA 	Keypress: space
+50.7970 	EXP 	sample_instructions: autoDraw = False
+50.7970 	EXP 	image: autoDraw = True
+54.6934 	DATA 	Keypress: space
+57.6034 	DATA 	Keypress: 3
+57.6144 	EXP 	image: autoDraw = False
+57.6144 	EXP 	sample_feedback: autoDraw = True
+60.5104 	EXP 	Imported image_stimulus revised w images.xlsx as conditions, 16 conditions, 2 params
+60.5108 	EXP 	Created sequence: sequential, trialTypes=16, nReps=1, seed=None
+60.5111 	EXP 	New trial (rep=0, index=0): OrderedDict([('ImageFile', 'q1.png'), ('corrAns', 4)])
+60.5269 	DATA 	Keypress: space
+60.5384 	EXP 	sample_feedback: autoDraw = False
+60.5384 	EXP 	question_images: image = 'q1.png'
+60.5384 	EXP 	question_images: autoDraw = True
+61.6615 	EXP 	New trial (rep=0, index=1): OrderedDict([('ImageFile', 'q2.png'), ('corrAns', 1)])
+61.6752 	DATA 	Keypress: 1
+61.6919 	EXP 	question_images: autoDraw = False
+61.6919 	EXP 	question_images: image = 'q2.png'
+61.6919 	EXP 	question_images: autoDraw = True
+62.3128 	EXP 	New trial (rep=0, index=2): OrderedDict([('ImageFile', 'q3.png'), ('corrAns', 4)])
+62.3287 	DATA 	Keypress: 2
+62.3440 	EXP 	question_images: autoDraw = False
+62.3440 	EXP 	question_images: image = 'q3.png'
+62.3440 	EXP 	question_images: autoDraw = True
+63.6666 	EXP 	New trial (rep=0, index=3): OrderedDict([('ImageFile', 'q4.png'), ('corrAns', 3)])
+63.6796 	DATA 	Keypress: 3
+63.6971 	EXP 	question_images: autoDraw = False
+63.6971 	EXP 	question_images: image = 'q4.png'
+63.6971 	EXP 	question_images: autoDraw = True
+64.0346 	EXP 	New trial (rep=0, index=4): OrderedDict([('ImageFile', 'q5.png'), ('corrAns', 3)])
+64.0497 	DATA 	Keypress: 4
+64.0645 	EXP 	question_images: autoDraw = False
+64.0645 	EXP 	question_images: image = 'q5.png'
+64.0645 	EXP 	question_images: autoDraw = True
+64.3353 	EXP 	New trial (rep=0, index=5): OrderedDict([('ImageFile', 'q6.png'), ('corrAns', 3)])
+64.3493 	DATA 	Keypress: 1
+64.3652 	EXP 	question_images: autoDraw = False
+64.3652 	EXP 	question_images: image = 'q6.png'
+64.3652 	EXP 	question_images: autoDraw = True
+64.6032 	EXP 	New trial (rep=0, index=6): OrderedDict([('ImageFile', 'q7.png'), ('corrAns', 4)])
+64.6169 	DATA 	Keypress: 2
+64.6332 	EXP 	question_images: autoDraw = False
+64.6332 	EXP 	question_images: image = 'q7.png'
+64.6332 	EXP 	question_images: autoDraw = True
+64.6682 	EXP 	New trial (rep=0, index=7): OrderedDict([('ImageFile', 'q8.png'), ('corrAns', 4)])
+64.6819 	DATA 	Keypress: 3
+64.6994 	EXP 	question_images: autoDraw = False
+64.6994 	EXP 	question_images: image = 'q8.png'
+64.6994 	EXP 	question_images: autoDraw = True
+65.3207 	EXP 	New trial (rep=0, index=8): OrderedDict([('ImageFile', 'q9.png'), ('corrAns', 4)])
+65.3356 	DATA 	Keypress: 4
+65.3513 	EXP 	question_images: autoDraw = False
+65.3513 	EXP 	question_images: image = 'q9.png'
+65.3513 	EXP 	question_images: autoDraw = True
+65.5885 	EXP 	New trial (rep=0, index=9): OrderedDict([('ImageFile', 'q10.png'), ('corrAns', 1)])
+65.6004 	DATA 	Keypress: 1
+65.6188 	EXP 	question_images: autoDraw = False
+65.6188 	EXP 	question_images: image = 'q10.png'
+65.6188 	EXP 	question_images: autoDraw = True
+65.7545 	EXP 	New trial (rep=0, index=10): OrderedDict([('ImageFile', 'q11.png'), ('corrAns', 3)])
+65.7689 	DATA 	Keypress: 2
+65.7859 	EXP 	question_images: autoDraw = False
+65.7859 	EXP 	question_images: image = 'q11.png'
+65.7859 	EXP 	question_images: autoDraw = True
+65.9221 	EXP 	New trial (rep=0, index=11): OrderedDict([('ImageFile', 'q12.png'), ('corrAns', 1)])
+65.9370 	DATA 	Keypress: 3
+65.9534 	EXP 	question_images: autoDraw = False
+65.9534 	EXP 	question_images: image = 'q12.png'
+65.9534 	EXP 	question_images: autoDraw = True
+66.1564 	EXP 	New trial (rep=0, index=12): OrderedDict([('ImageFile', 'q13.png'), ('corrAns', 4)])
+66.1700 	DATA 	Keypress: 4
+66.1873 	EXP 	question_images: autoDraw = False
+66.1873 	EXP 	question_images: image = 'q13.png'
+66.1873 	EXP 	question_images: autoDraw = True
+66.3906 	EXP 	New trial (rep=0, index=13): OrderedDict([('ImageFile', 'q14.png'), ('corrAns', 4)])
+66.4054 	DATA 	Keypress: 1
+66.4208 	EXP 	question_images: autoDraw = False
+66.4208 	EXP 	question_images: image = 'q14.png'
+66.4208 	EXP 	question_images: autoDraw = True
+66.4568 	EXP 	New trial (rep=0, index=14): OrderedDict([('ImageFile', 'q15.png'), ('corrAns', 1)])
+66.4725 	DATA 	Keypress: 2
+66.4877 	EXP 	question_images: autoDraw = False
+66.4877 	EXP 	question_images: image = 'q15.png'
+66.4877 	EXP 	question_images: autoDraw = True
+66.5909 	EXP 	New trial (rep=0, index=15): OrderedDict([('ImageFile', 'q16.png'), ('corrAns', 2)])
+66.6059 	DATA 	Keypress: 3
+66.6214 	EXP 	question_images: autoDraw = False
+66.6214 	EXP 	question_images: image = 'q16.png'
+66.6214 	EXP 	question_images: autoDraw = True
+66.8964 	DATA 	Keypress: 4
+66.9053 	EXP 	question_images: autoDraw = False
+66.9053 	EXP 	thankyouslide: autoDraw = True
+68.2301 	DATA 	Keypress: space
+68.2427 	EXP 	thankyouslide: autoDraw = False
+68.5444 	EXP 	window1: mouseVisible = True
